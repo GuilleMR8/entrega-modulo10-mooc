@@ -64,6 +64,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
                 deferredPrompt = null;
                 installButton.style.display = 'none';
+            });
+        }
     });
 });
 
