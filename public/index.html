@@ -5,7 +5,7 @@
   <title>Shooter Game</title>
   <link rel="manifest" href="manifest.json">
   <link type="text/css" rel="stylesheet" href="game.css">
-  <meta name="viewport" content="user-scalable=0"/>
+  <meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0"/>
   <script src="Game.js" type="text/javascript"></script>
   <script src="Entity.js" type="text/javascript"></script>
   <script src="Character.js" type="text/javascript"></script>
@@ -16,8 +16,10 @@
 </head>
 
 <body>
-  <button id="pause" class="gamebutton" onclick="this.blur();">Pausa</button>
-  <button id="reset" class="gamebutton" onclick="this.blur();">NUEVA PARTIDA</button>
+  <div id="game-container">
+    <button id="pause" class="gamebutton" onclick="this.blur();">Pausa</button>
+    <button id="reset" class="gamebutton" onclick="this.blur();">NUEVA PARTIDA</button>
+  </div>
 </body>
 
 </html>

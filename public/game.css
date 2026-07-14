@@ -31,4 +31,7 @@ html {
 	outline: none;
 	font-family: monospace;
 	cursor: pointer;
+    position: relative;
+    z-index: 10;
 }
+
